@@ -33,6 +33,4 @@ if __name__ == "__main__":
     listener = MyStreamListener()
     Stream = Stream(auth, listener)
     search_query = 'Corona Virus'
-    #Stream.filter(track=['CoronaVirus'] or ['Corona virus'] or ['Corona Virus'] or ['corona virus'])
     Stream.filter(languages=["en"], track=[search_query])
-    #tweet_data = "C:\Users\TheDb\OneDrive\Documents\Coding stuff\Twitter Data Scraper\Data.csv"
