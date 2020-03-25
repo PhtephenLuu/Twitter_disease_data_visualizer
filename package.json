@@ -1,0 +1,12 @@
+{
+  "requires": true,
+  "lockfileVersion": 1,
+  "dependencies": {
+    "flask": {
+      "integrity": "sha1-9fWkLP1YownjfGfAo5YXqBnl4bc=",
+      "resolved": "https://registry.npmjs.org/flask/-/flask-0.2.10.tgz",
+      "version": "0.2.10"
+    },
+    "git": "^0.1.5"
+  }
+}
